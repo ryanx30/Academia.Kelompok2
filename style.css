@@ -1,0 +1,86 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Mengizinkan pengguliran */
+}
+
+
+body {
+    background-image: linear-gradient( 180.7deg,  rgba(0,213,255,1) 2.5%, rgba(79,255,255,1) 97.7% );
+}
+
+table {
+    background-color: white;
+    border-radius: 10px;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.container mt-5 {
+    height: 100vh; /* Menggunakan 100% dari viewport height */
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Mengubah arah flex items menjadi vertikal */
+    justify-content: stretch; /* Menengahkan konten secara vertikal */
+    align-content: center;
+}
+
+#realtime-clock {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7px;
+    padding-right: 16px;
+    color: #374151; /* Warna teks jam */
+    height: 50px;
+    line-height: 50px;
+}
+
+#Academia {
+    font-size: 35px;
+    font-weight: 300;
+    font-style: normal;
+    height: 50px;
+    line-height: 50px;
+    color:#374151;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+    background-color:#DEDEDE;
+}
+
+img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-block-end: 0em;
+}
+
+#toastTmb .toast-header{
+    background-color: #1dab6f;
+    color: white;
+}
+
+#toastEdit .toast-header{
+    background-color: #00aedb;
+    color: white;
+}
+
+#toastDel .toast-header{
+    background-color: #ff4747;
+    color: white;
+}
+
+#toastWar .toast-header{
+    background-color: #ffee92;
+    color: white;
+}
